@@ -173,14 +173,14 @@ a {
   }
 
   .hover-1 {
-    --c: #1095c1; /* the color */
+    --c: #0275d8; /* the color */
     --b: .1em;    /* border length*/
     --d: 20px;    /* the cube depth */
-    
     --_s: calc(var(--d) + var(--b));
     
     color: var(--c);
     border: solid #0000;
+    border-radius: 7px;
     border-width: var(--b) var(--b) var(--_s) var(--_s);
     background:
       conic-gradient(at left var(--d)  bottom var(--d),
@@ -201,6 +201,7 @@ a {
   }
   .hover-1:hover {
     transform: translate(0,0);
+    border-radius: 7px;
     clip-path: 
       polygon(
        0% var(--d), 
