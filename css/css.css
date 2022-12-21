@@ -199,6 +199,7 @@ a {
       );
     transition: 0.5s;
   }
+
   .hover-1:hover {
     transform: translate(0,0);
     border-radius: 7px;
