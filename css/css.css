@@ -59,7 +59,7 @@ a {
     }
    
     .shfooter .collapse {
-      display: none;
+      display: none; 
     }
    
     .shfooter .collapse.show {
