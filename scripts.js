@@ -96,6 +96,41 @@ function valorute() {
           }
         }
 
+  function validar(){
+        
+          var valor = document.getElementById('voltaje').value;
+          var valor2 = document.getElementById('corriente').value;
+          var valor3 = document.getElementById('pactiva').value;
+          var valor4 = document.getElementById('frecuencia').value;
+          
+          
+          if( valor == null || valor.length == 0) {
+            alert('Error, rellena el campo ');
+          return false;
+          }
+
+          if( valor2 == null || valor2.length == 0) {
+            alert('Error, rellena el campo ');
+          return false;
+          }
+
+          if( valor3 == null || valor3.length == 0) {
+            alert('Error, rellena el campo ');
+          return false;
+          }
+
+          if( valor4 == null || valor4.length == 0) {
+            alert('Error, rellena el campo ');
+          return false;
+          }
+
+          if(!registro.checked ){
+            alert('Debe seleccionar una de las dos casillas');
+            return false;
+          }
+    }
+        
+
         
  
         
