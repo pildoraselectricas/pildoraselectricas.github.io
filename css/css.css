@@ -158,10 +158,6 @@ a {
     border:30px;
   }
 
-  .alert-success{
-    font-size:40px;
-  }
-
   input:invalid {
     box-shadow: 0 0 5px 1px red;
   }
